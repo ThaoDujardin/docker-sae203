@@ -8,7 +8,7 @@ Dans le cadre de la SAE 2.03 sur l'installation de services réseaux avec Docker
 
 - **Membres de l'Équipe :**
   - Dujardin Thao
-  - [Nom du Membre 2]
+  - Harel Théo
   - [Nom du Membre 3]
   - [Nom du Membre 4]
 
