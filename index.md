@@ -14,4 +14,3 @@ Dans le cadre de la SAE 2.03 sur l'installation de services réseaux avec Docker
 
 ## TEST
 
-[![alt text](https://img.youtube.com/vi/video-id/0.jpg)](https://www.youtube.com/watch?v=video-id)
