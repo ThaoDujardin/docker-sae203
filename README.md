@@ -1,7 +1,3 @@
-# Exemple Dockerfile (créer une image)
-
-Exemple de **dockerfile + github** pour lancer un serveur web basé sur l'image ```httpd```
-
 ## Instructions pour lancer l'application
 
 - Vérifiez si docker est installé :
@@ -11,12 +7,12 @@ docker --version
 
 - Cloner le référentiel :
  ```shell
-git clone git@github.com:juanluck/exempleDockerfile.git
+git clone git@github.com:ThaoDu1/docker-sae203.git
 ```
 
 - Aller au référentiel :
 ```shell
-cd exempleDockerfile
+cd docker-sae203
 ```
 
 - Construisez l'image décrite dans dockerfile avec docker build : 
@@ -26,10 +22,10 @@ docker build -t <choisir-un-nom-pour-l'image> .
 
 - Lancer le serveur web :
 ```shell
-docker run -d -p 8080:80 <nom-de-l'image-choisie>
+docker run -d -p 6969:80 <nom-de-l'image-choisie>
 ```
 
-- Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez ```localhost:8080```
+- Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez ```localhost:6969```
 
 - Vérifier que le conteneur associé est actif :
 ```shell
@@ -39,7 +35,7 @@ docker ps
 - La sortie de ```docker ps``` doit être similaire à :
 ```shell
 CONTAINER ID   IMAGE          COMMAND              CREATED          STATUS          PORTS                                   NAMES
-b8f8f406b03c   httpd-juanlu   "httpd-foreground"   30 minutes ago   Up 30 minutes   0.0.0.0:8080->80/tcp, :::8080->80/tcp   quirky_tesla
+b8f8f406b03c   httpd-joe   "httpd-foreground"   15 minutes ago   Up 15 minutes   0.0.0.0:6969->80/tcp, :::6969->80/tcp   quirky_tesla
 ```
 
 - Finalement, arrêtez le conteneur avec la commande suivante (les dernières chiffres sont le code de hachage affiché par docker ps):
