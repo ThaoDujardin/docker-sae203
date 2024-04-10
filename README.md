@@ -1,6 +1,6 @@
 
 
-    Vérifiez si docker est installé :
+Vérifiez si docker est installé :
 
 `docker --version`
 
