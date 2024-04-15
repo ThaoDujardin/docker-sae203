@@ -34,8 +34,8 @@ docker ps
 
 - La sortie de ```docker ps``` doit être similaire à :
 ```shell
-CONTAINER ID   IMAGE          COMMAND              CREATED          STATUS          PORTS                                   NAMES
-b8f8f406b03c   httpd-joe   "httpd-foreground"   15 minutes ago   Up 15 minutes   0.0.0.0:6969->80/tcp, :::6969->80/tcp   quirky_tesla
+CONTAINER ID   IMAGE               COMMAND              CREATED          STATUS            PORTS                               NAMES
+b8f8f406b03c   morpionjs-img   "httpd-foreground"   15 minutes ago   Up 15 minutes   0.0.0.0:6969->80/tcp, :::6969->80/tcp   morpionjs
 ```
 
 - Finalement, arrêtez le conteneur avec la commande suivante (les dernières chiffres sont le code de hachage affiché par docker ps):
