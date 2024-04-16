@@ -29,4 +29,4 @@ Il se présente de la manière suivante :
 
 le morpion commence avec une situation initiale où le tableau de case est vide. 
 
-![début](Deb.png)
+![début](Deb.png) ![début](Deb.png)
