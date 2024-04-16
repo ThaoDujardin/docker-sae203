@@ -14,9 +14,10 @@ Dans le cadre de la SAE 2.03 sur l'installation de services réseaux avec Docker
 
 ## Début du projet 
 
-Nous avons tout d'abord commencé ce projet par décider quel serait notre produit, nous avons décidé de manière unanime de faire un morpion.
+- Nous avons tout d'abord commencé ce projet par décider quel serait notre produit, nous avons décidé de manière unanime de faire un morpion.
 Il se présente de la manière suivante :
-- 
+  Tout d'abord , l'utilisateur 1 (X) choisi une case , puis l'utilisateur 2 (O) , puis l'utilisateur 1 ,  jusqu'à que 3 même symbole soit alignés ou qu'il n'y ait plus de cases libre.
+  Alors 
 
 ## TEST
 
