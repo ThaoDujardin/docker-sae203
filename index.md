@@ -37,4 +37,12 @@ Donc à chaque tour chaque joueur choisi une case l'un après l'autre , biensur 
 
 ![jeu1](./images/Jeu1.png) ![jeuCode](./images/JeuCode.png)
 
-![jeu2](./images/Jeu2.png) ![jeuCode](./images/JeuCode.png)
+![jeu2](./images/Jeu2.png)
+
+### Étape 3 : Fin de partie
+
+La partie se termine en cas d'alignement de trois même symbole ou de situation nulle ( où il n'y a plus d'espaces libres )
+
+![Gagne](./images/Gagne.png) ![GCode](./images/GagneCode.png)
+
+![Nul](./images/Nul.png) ![NCode](./images/NulCode.png)
