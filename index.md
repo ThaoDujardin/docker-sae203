@@ -45,4 +45,4 @@ La partie se termine en cas d'alignement de trois même symbole ou de situation 
 
 ![Gagne](./images/Gagne.png) ![GCode](./images/GCode.png)
 
-![Nul](./images/Nul.png) ![NCode](./images/NCode.png)
+![Nul](./images/N.png) ![NCode](./images/NCode.png)
