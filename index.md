@@ -32,3 +32,9 @@ Le morpion commence avec une situation initiale où le tableau de case est vide.
 ![début](Deb.png) ![début](DebCode.png)
 
 ### Étape 2 : Fonctionnement du jeu
+
+Donc à chaque tour chaque joueur choisi une case l'un après l'autre , biensur chaque joueur ne peut sélectionner un case déjà occupé.
+
+![débutJeu](Jeu1.png) ![débutJeu](Jeu1Code.png)
+
+![débutJeu](Jeu2.png) ![débutJeu](Jeu1Code.png)
