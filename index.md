@@ -43,6 +43,6 @@ Donc à chaque tour chaque joueur choisi une case l'un après l'autre , biensur 
 
 La partie se termine en cas d'alignement de trois même symbole ou de situation nulle ( où il n'y a plus d'espaces libres )
 
-![Gagne](./images/Gagne.png) ![GCode](./images/GagneCode.png)
+![Gagne](./images/Gagne.png) ![GCode](./images/GCode.png)
 
-![Nul](./images/Nul.png) ![NCode](./images/NulCode.png)
+![Nul](./images/Nul.png) ![NCode](./images/NCode.png)
