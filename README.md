@@ -48,4 +48,4 @@ docker stop b8f8f406b03c
 docker rm b8f8f406b03c
 ```
 
-**NOTE :** Au lieu du code de hachage, on peut toujours taper le nom du conteneur. Dans le cas d'exemple ce nom est ```quirky_tesla```
+**NOTE :** Au lieu du code de hachage, on peut toujours taper le nom du conteneur.
