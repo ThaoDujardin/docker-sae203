@@ -24,3 +24,4 @@ Il se présente de la manière suivante :
   L'utilisateur 1 (X) choisi une case , puis l'utilisateur 2 (O) , puis l'utilisateur 1 ,  jusqu'à que 3 même symbole soit alignés ou qu'il n'y ait plus de cases libre.
   Alors la partie revient au stade initial avec un tableau de case vides.
 
+![début](Deb.png)
