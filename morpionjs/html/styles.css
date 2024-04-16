@@ -1,0 +1,58 @@
+/* Styling for the game board */
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3, 100px);
+	gap: 5px;
+	width: 320px;
+	height: 320px;
+	margin: 0 auto; /* Center the board horizontally */
+	border: 2px solid #333;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	background-color: #f0f0f0;
+}
+
+/* Styling for individual cells */
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	color: #333;
+	cursor: pointer;
+	background-color: #fff;
+	transition: background-color 0.3s ease;
+}
+
+/* Styling for the winning combination */
+.cell.winner {
+	color: #fff;
+	background-color: #3cba54; /* Green */
+}
+
+/* Styling for the header */
+h1 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+/* Styling for the footer */
+footer {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin-top: 20px;
+}
+
+
+#status {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#statusJoueurs {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
